@@ -1,0 +1,22 @@
+{
+  "name": "flakejs",
+  "version": "0.1.0",
+  "description": "Simpleflake ID generator implemented in JS",
+  "main": "flake.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "id",
+    "generator"
+  ],
+  "author": "Anton Zering <anton@cobrainer.com>",
+  "license": "BSD",
+  "dependencies": {
+    "bignumber.js": "^2.0.7"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  }
+}
